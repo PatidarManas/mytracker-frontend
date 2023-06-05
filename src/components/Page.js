@@ -3,7 +3,7 @@ import "./Page.scss";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 const Page = () => {
-  const url = "http://localhost:4000";
+  const url = "https://mttracker.onrender.com";
   const history = useNavigate();
   const location = useLocation();
   const incomearr= location.state.user.income;
