@@ -1,0 +1,249 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff2cc;
+  .bar {
+    // width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #dfa67b;
+    .btns{
+      display: flex;
+      flex-direction: row;
+      font-size: 22px;
+      font-weight: 400;
+      gap: 15px;
+      a{
+        cursor: pointer;
+      }
+    }
+  }
+  .main-box {
+    display: grid;
+    grid-template-columns: 50% auto;
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-size: 44px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+      }
+      .red{
+        color: red;
+        font-weight: 400;
+      }
+      .green{
+        color: green;
+        font-weight: 400;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      .up {
+        display: flex;
+        flex-direction: column;
+        .add {
+          h3 {
+            margin: 0;
+            padding: 0;
+            padding: 20px;
+          }
+          .form {
+            display: flex;
+            gap: 15px;
+            input {
+              background-color: #f4b183;
+              border: 0;
+              border-radius: 2px;
+              height: 30px;
+            }
+            button {
+              height: 30px;
+              border-radius: 3px;
+              border: 0;
+              color: white;
+              font-size: 18px;
+              background-color: green;
+              padding: 5px 15px;
+              cursor: pointer;
+            }
+            .clrbtn{
+              background-color: grey;
+            }
+          }
+        }
+        .button {
+          height: 30px;
+          width: 150px;
+          align-self: flex-start;
+          margin: 20px 50px 20px 00;
+          border-radius: 3px;
+          border: 0;
+          color: white;
+          background-color: #FFD966;
+          color: black;
+        }
+      }
+      .down {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        .add {
+          h3 {
+            margin: 0;
+            padding: 0;
+            padding: 20px;
+          }
+          
+          .form {
+            display: flex;
+            gap: 15px;
+            input {
+              background-color: #f4b183;
+              border: 0;
+              border-radius: 2px;
+              height: 30px;
+            }
+            button {
+              height: 30px;
+              border-radius: 3px;
+              border: 0;
+              font-size: 18px;
+              color: white;
+              background-color: green;
+              padding: 5px 15px;
+              cursor: pointer;
+            }
+            .clrbtn{
+              background-color: grey;
+            }
+          }
+        }
+        .button {
+            height: 30px;
+            width: 150px;
+            align-self: flex-start;
+            margin: 20px 50px 20px 00;
+            border-radius: 3px;
+            border: 0;
+            color: white;
+            background-color: #FFD966;
+            color: black;
+          }
+      }
+    }
+  }
+    .Incomes{
+      z-index: 99;
+      display: none;
+      position: absolute;
+      background-attachment: fixed;
+      background-color: #dfa67b;
+      justify-content: center;
+      width: 100%;
+      align-content: center;
+      height: 100%;
+      .box{
+        .close{
+          width: 150px;
+          height: 30px;
+          font-size: 20px;
+          font-weight: 100;
+          position: absolute;
+          top: 20px;
+          right: 100px;
+          cursor: pointer;
+          color: white;
+          border: 2px solid white;
+          border-radius: 3px;
+          background-color: transparent;
+        }
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        .c1{
+          display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+        }
+        .c2{
+          display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+          button{
+            width: 150px;
+            height: 30px;
+            background-color: transparent;
+            border-radius: 4px;
+            border: 2px solid red;
+            color: red;
+            font-size: 20px;
+            font-weight: 200;
+            cursor: pointer;
+
+          }
+        }
+      }
+    }
+    .Expenses{
+      z-index: 99;
+      display: none;
+      position: absolute;
+      background-attachment: fixed;
+      background-color: #dfa67b;
+      justify-content: center;
+      width: 100%;
+      align-content: center;
+      height: 100%;
+      .box{
+        .close{
+          width: 150px;
+          height: 30px;
+          font-size: 20px;
+          font-weight: 100;
+          position: absolute;
+          top: 20px;
+          right: 100px;
+          cursor: pointer;
+          color: white;
+          border: 2px solid white;
+          border-radius: 3px;
+          background-color: transparent;
+        }
+        h1{
+          justify-content: center;
+        }
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        .c1{
+          display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+        }
+        .c2{
+          display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+          button{
+            width: 150px;
+            height: 30px;
+            background-color: transparent;
+            border-radius: 4px;
+            border: 2px solid red;
+            color: red;
+            font-size: 20px;
+            font-weight: 200;
+            cursor: pointer;
+
+          }
+        }
+      }
+    }
+  }
+

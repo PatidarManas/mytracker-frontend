@@ -1,0 +1,211 @@
+.main{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("../bg.jpg");
+    background-attachment: scroll;
+
+    .loginbox{
+        background-color: #FFF2CC;
+        width: 55%;
+        height: 60%;
+        border-radius: 25px;
+        display: grid;
+        // display: none;
+        grid-template-columns: 50% auto;
+        .left{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            h1{
+                padding: 0;
+                margin: 0;
+                padding-top: 35px;
+                font-size: 44px;
+                font-weight: 100;
+                color: black;
+            }
+            h3{
+                padding: 0;
+                margin: 0;
+                font-size: 22px;
+                font-weight: 300;
+                padding-bottom: 30px;
+            }
+            .form{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                .box{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    border: 2px solid #FFD966;
+                    border-radius: 25px;
+                    padding: 2px 15px;
+                    input{
+                        background-color: transparent;
+                        border: 0;
+                        
+                    }
+                    .text{
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+                .text2{
+                    font-size: 18px;
+                    padding: 20px 0;
+                    a{
+
+                        cursor: pointer;
+                        color: blue;
+                    }
+                }
+                button{
+                    width: 150px;
+                    height: 40px;
+                    font-size: 22px;
+                    font-weight: 300;
+                    align-self: end;
+                    border-radius: 5px;
+                    color: #DFA67B;
+                    cursor: pointer;
+                    margin: 40px 0 0 0;
+                    background-color: #FFF2CC;
+                    border: 2px solid #DFA67B;
+                }
+            }
+
+        }
+        .right{
+            padding: 0;
+            display: flex;
+            height: fit-content;
+            width: 100%;
+            img{
+                width: calc(100%);
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+            button{
+                position: absolute;
+                right: calc(23%);
+                top: 50px;
+                border: 2px solid #DFA67B;
+                color: #DFA67B;
+                font-size: 30px;
+                font-weight: 400;
+                border-radius: 50%;
+                cursor: pointer;
+                background-color: transparent;
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    .signupbox{
+        background-color: #FFF2CC;
+        width: 55%;
+        height: 60%;
+        border-radius: 25px;
+        display: grid;
+        display: none;
+        grid-template-columns: 50% auto;
+        .left{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            h1{
+                padding: 0;
+                margin: 0;
+                padding-top: 35px;
+                font-size: 44px;
+                font-weight: 100;
+                color: black;
+            }
+            h3{
+                padding: 0;
+                margin: 0;
+                font-size: 22px;
+                font-weight: 300;
+                padding-bottom: 30px;
+            }
+            .form{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                .box{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    border: 2px solid #FFD966;
+                    border-radius: 25px;
+                    padding: 2px 15px;
+                    input{
+                        background-color: transparent;
+                        border: 0;
+                        
+                    }
+                    .text{
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+                .text2{
+                    font-size: 18px;
+                    padding: 20px 0;
+                    a{
+
+                        cursor: pointer;
+                        color: blue;
+                    }
+                }
+                button{
+                    width: 150px;
+                    height: 40px;
+                    font-size: 22px;
+                    font-weight: 300;
+                    align-self: end;
+                    border-radius: 5px;
+                    color: #DFA67B;
+                    cursor: pointer;
+                    margin: 40px 0 0 0;
+                    background-color: #FFF2CC;
+                    border: 2px solid #DFA67B;
+                }
+            }
+
+        }
+        .right{
+            padding: 0;
+            display: flex;
+            height: fit-content;
+            width: 100%;
+            img{
+                width: calc(100%);
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+            button{
+                position: absolute;
+                right: calc(23%);
+                top: 50px;
+                border: 2px solid #DFA67B;
+                color: #DFA67B;
+                font-size: 30px;
+                font-weight: 400;
+                border-radius: 50%;
+                cursor: pointer;
+                background-color: transparent;
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
